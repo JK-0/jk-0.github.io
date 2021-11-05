@@ -30,22 +30,22 @@ projects:
     projects:
     # - repo-name
 
-# social_media:
+social_media:
   # behance: your_username
   # dribbble: your_username
   # facebook: your_username
   # hackerrank: your_username
   # instagram: your_username
   # keybase: your_username
-  linkedin: jignesh-kotadiya-700b34112
+  linkedin: J1gne5h
   # mastodon: your_username
   # medium: your_username
   # stackoverflow: your_user_id
-  # telegram: your_username
-  # twitter: your_username
+  telegram: jigneshkotadiya
+  twitter: jignesh16410741
   # unsplash: your_username
   # vk: your_username
-  # website: http://your_website_url
+  website: https://jk-0.github.io/
   # youtube: your_username
 
 topics:
@@ -132,3 +132,7 @@ topics:
   - name: Telegram
     web_url: https://github.com/topics/telegram
     image_url: https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/telegram/telegram.png
+
+  - name: Chrome extension
+    web_url: https://github.com/topics/chrome-extension
+    image_url: https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/chrome-extension/chrome-extension.png
