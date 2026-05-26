@@ -1,0 +1,38 @@
+name: Deploy to GitHub Pages
+
+# Serves the static files on this branch via the GitHub Actions Pages pipeline
+# (no Jekyll / legacy build). Runs when the portfolio CI pushes a new build here,
+# or manually via "Run workflow".
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: true
+
+jobs:
+  deploy:
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Stage site files (exclude repo/CI metadata)
+        run: |
+          mkdir -p _site
+          rsync -a --exclude='.git' --exclude='.github' --exclude='_site' ./ _site/
+
+      - uses: actions/configure-pages@v5
+      - uses: actions/upload-pages-artifact@v3 # defaults to ./_site
+      - id: deployment
+        uses: actions/deploy-pages@v4
