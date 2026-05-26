@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1500 310" width="1500" height="310" role="img" aria-label="Jignesh (JK) Kotadiya — Inveterate lifetime learner, &amp; technology explorer">
+  <defs>
+    <style>
+      .jk-name { font-family: 'Raleway', 'Century Gothic', 'Trebuchet MS', 'Segoe UI', sans-serif; font-weight: 300; }
+      .jk-tag  { font-family: 'Raleway', 'Century Gothic', 'Trebuchet MS', 'Segoe UI', sans-serif; font-weight: 700; font-style: italic; }
+    </style>
+  </defs>
+
+  <text class="jk-name" x="8" y="160" font-size="104" fill="#f2f1e7" letter-spacing="2"
+        textLength="1150" lengthAdjust="spacingAndGlyphs">Jignesh (JK) Kotadiya</text>
+
+  <text class="jk-tag" x="12" y="244" font-size="32" fill="#eceadd" letter-spacing="1"
+        textLength="1150" lengthAdjust="spacingAndGlyphs">Inveterate lifetime learner, &amp; technology explorer</text>
+
+  <rect x="1206" y="12" width="74" height="286" fill="#fdf200"/>
+  <rect x="1306" y="12" width="74" height="286" fill="#fbf45c"/>
+  <rect x="1406" y="12" width="74" height="286" fill="#fcf8a4"/>
+</svg>

@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 450" width="800" height="450" role="img" aria-label="Nexara">
+  <defs>
+    <linearGradient id="na-bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#2a1244"/>
+      <stop offset="1" stop-color="#0c0513"/>
+    </linearGradient>
+    <linearGradient id="na-ac" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#c084f5"/>
+      <stop offset="1" stop-color="#8a4fd6"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="450" fill="url(#na-bg)"/>
+  <g transform="translate(560,95)" fill="none" stroke="#c084f5" stroke-opacity="0.20" stroke-width="2">
+    <circle cx="40" cy="40" r="22"/>
+    <circle cx="150" cy="60" r="22"/>
+    <circle cx="95" cy="150" r="22"/>
+    <line x1="40" y1="40" x2="150" y2="60"/>
+    <line x1="40" y1="40" x2="95" y2="150"/>
+    <line x1="150" y1="60" x2="95" y2="150"/>
+    <path d="M88 150 l6 8 l12 -16" stroke-width="3"/>
+  </g>
+  <g transform="translate(64,150)">
+    <rect x="0" y="0" width="56" height="56" rx="14" fill="url(#na-ac)"/>
+    <text x="28" y="40" font-family="Segoe UI, Arial, sans-serif" font-size="34" font-weight="700" fill="#0c0513" text-anchor="middle">N</text>
+  </g>
+  <text x="64" y="270" font-family="Segoe UI, Arial, sans-serif" font-size="56" font-weight="700" fill="#ffffff">Nexara</text>
+  <text x="66" y="312" font-family="Segoe UI, Arial, sans-serif" font-size="24" font-weight="500" fill="#c084f5">AI-Powered Freelance Marketplace</text>
+  <text x="66" y="352" font-family="Segoe UI, Arial, sans-serif" font-size="18" fill="#b9a9cf">Django REST · AI Matching · Cloud Run</text>
+</svg>
